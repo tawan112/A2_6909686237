@@ -1,1 +1,50 @@
-/* Custom styles for A2 Learning Portfolio */
+:root {
+    --ink: #1f2a37;
+    --muted: #5b6776;
+    --accent: #0f766e;
+    --surface: #eef3f4;
+}
+
+body {
+    font-family: "IBM Plex Sans Thai", system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--ink);
+    line-height: 1.7;
+}
+
+a {
+    color: var(--accent);
+}
+
+.site-header {
+    border-bottom: 1px solid #d5dde0;
+    background: #fff;
+}
+
+.profile-img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+dt {
+    color: var(--muted);
+    font-weight: 600;
+}
+
+.portfolio-bg {
+    background: var(--surface);
+}
+
+.item-card {
+    border: 0;
+}
+
+.item-meta dd,
+.reflection dd {
+    margin-bottom: 0.5rem;
+}
+
+.reflection dt {
+    color: var(--ink);
+}
